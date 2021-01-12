@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   s.platform     = :ios, "8.0"
 
-  s.source       = { :git => "https://github.com/mendix/viro.git", :tag=>"head" :branch=> "nalm/auto-linking" }
+  s.source       = { :git => "https://github.com/mendix/viro.git", :tag=>"head", :branch=> "nalm/auto-linking" }
   s.source_files  = ["ios/ViroReact/**/*.{h,m}", "ios/ViroReactFramework/**/*.{h,m}"]
 
   s.dependency 'React-Core'
