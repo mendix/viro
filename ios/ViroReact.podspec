@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.name                = 'ViroReact'
   s.version             = '1.0'
   s.summary             = 'Test description'
-  s.source              = { :http => 'https://s3-us-west-2.amazonaws.com/viro-docs/ViroReact.tar.gz'}
+  s.source              = { :path => '.'}
   s.source_files        = 'dist/include'
   s.public_header_files = 'dist/include/*.h'
   s.vendored_libraries  = 'dist/lib/libViroReact.a'

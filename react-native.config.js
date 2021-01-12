@@ -7,6 +7,9 @@ module.exports = {
         packageInstance:
           "new ReactViroPackage(ReactViroPackage.ViroPlatform.AR)",
       },
+      ios: {
+        podspecPath: "./ios/ViroReact.podspec",
+      },
     },
   },
 };
