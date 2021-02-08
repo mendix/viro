@@ -19,6 +19,7 @@ jobs:
 
       - name: xcodebuild ViroReact IOS framework
         working-directory: ./ios
+        run: |
           xcodebuild \
           -workspace ViroReact.xcworkspace/ \
           -scheme ViroReact_static_lib \
