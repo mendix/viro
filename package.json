@@ -16,9 +16,12 @@
     "android/viro_renderer",
     "android/gvr_common",
     "android/arcore_client",
-    "ios/dist",
-    "ios/ViroReact.podspec",
+    "ios/dist/include",
+    "ios/dist/static_lib",
+    "ios/ViroKit.framework",
     "bin",
+    "react-native.config.js",
+    "react-viro.podspec",
     "LICENSE"
   ],
   "peerDependencies": {

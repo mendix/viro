@@ -19,8 +19,3 @@ end
 target 'ViroReact_release_tests' do
     common_pods
 end
-
-use_flipper!
-post_install do |installer|
-  flipper_post_install(installer)
-end

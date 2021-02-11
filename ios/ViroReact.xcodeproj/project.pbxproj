@@ -235,11 +235,9 @@
 		1385B24520CA091C00C3B6CE /* VRTPolyline.h in Copy Headers to ios/dist/include */ = {isa = PBXBuildFile; fileRef = 8AFC1C351EC1001C0000F7EB /* VRTPolyline.h */; };
 		1385B24620CA091C00C3B6CE /* VRTPortalScene.h in Copy Headers to ios/dist/include */ = {isa = PBXBuildFile; fileRef = 8FEF00631F37ACCC006AE4B1 /* VRTPortalScene.h */; };
 		1385B24720CA091C00C3B6CE /* VRTPortal.h in Copy Headers to ios/dist/include */ = {isa = PBXBuildFile; fileRef = 8FEF00841F37D04F006AE4B1 /* VRTPortal.h */; };
-		1385B24820CA091C00C3B6CE /* (null) in Copy Headers to ios/dist/include */ = {isa = PBXBuildFile; };
 		1385B24920CA091C00C3B6CE /* VRTPolylineManager.h in Copy Headers to ios/dist/include */ = {isa = PBXBuildFile; fileRef = 8A56302D1EBBFF5F009E71A7 /* VRTPolylineManager.h */; };
 		1385B24A20CA091C00C3B6CE /* VRTPortalSceneManager.h in Copy Headers to ios/dist/include */ = {isa = PBXBuildFile; fileRef = 8FEF00821F37CAEF006AE4B1 /* VRTPortalSceneManager.h */; };
 		1385B24B20CA091C00C3B6CE /* VRTPortalManager.h in Copy Headers to ios/dist/include */ = {isa = PBXBuildFile; fileRef = 8FEF00871F37D0C0006AE4B1 /* VRTPortalManager.h */; };
-		1385B24C20CA091C00C3B6CE /* (null) in Copy Headers to ios/dist/include */ = {isa = PBXBuildFile; };
 		1385B24D20CA091C00C3B6CE /* VRTARSceneNavigator.h in Copy Headers to ios/dist/include */ = {isa = PBXBuildFile; fileRef = 8A7743801EEF62F90004C17A /* VRTARSceneNavigator.h */; };
 		1385B24E20CA091C00C3B6CE /* VRTARAnchorNode.h in Copy Headers to ios/dist/include */ = {isa = PBXBuildFile; fileRef = 8AEFA22C1EF34487006851B7 /* VRTARAnchorNode.h */; };
 		1385B24F20CA091C00C3B6CE /* VRTARPlane.h in Copy Headers to ios/dist/include */ = {isa = PBXBuildFile; fileRef = 8AEFA2281EF3197E006851B7 /* VRTARPlane.h */; };
@@ -313,7 +311,6 @@
 		1385B29320CA091C00C3B6CE /* VRTUtils.h in Copy Headers to ios/dist/include */ = {isa = PBXBuildFile; fileRef = 8BE0D4801DFA15880032AB99 /* VRTUtils.h */; };
 		1385B29420CA091C00C3B6CE /* VRTVideoSurfaceManager.h in Copy Headers to ios/dist/include */ = {isa = PBXBuildFile; fileRef = 8BE0D4821DFA15880032AB99 /* VRTVideoSurfaceManager.h */; };
 		1385B29520CA091C00C3B6CE /* VRTViewContainerManager.h in Copy Headers to ios/dist/include */ = {isa = PBXBuildFile; fileRef = 8BE0D4F31DFA3D9B0032AB99 /* VRTViewContainerManager.h */; };
-		1385B2A320CA099F00C3B6CE /* ViroKit_static_lib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1385B2A220CA099F00C3B6CE /* ViroKit_static_lib.framework */; };
 		13F6302D205761B100A74EFC /* VRT3DSceneNavigatorModule.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13F6302C205761B100A74EFC /* VRT3DSceneNavigatorModule.mm */; };
 		13F63033205762CB00A74EFC /* VRT3DSceneNavigatorManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13F63032205762CB00A74EFC /* VRT3DSceneNavigatorManager.mm */; };
 		13F630362057644D00A74EFC /* VRT3DSceneNavigator.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13F630352057644D00A74EFC /* VRT3DSceneNavigator.mm */; };
@@ -525,6 +522,8 @@
 		A5E8F0AC1ED6B64E00729916 /* VRTSceneModule.mm in Sources */ = {isa = PBXBuildFile; fileRef = A5E8F0A81ED6B64D00729916 /* VRTSceneModule.mm */; };
 		A5F6D4011E4B0DFF00655F60 /* VRTController.mm in Sources */ = {isa = PBXBuildFile; fileRef = A5F6D4001E4B0DFF00655F60 /* VRTController.mm */; };
 		A5F6D4051E4B179700655F60 /* VRTControllerManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = A5F6D4041E4B179700655F60 /* VRTControllerManager.mm */; };
+		DF5F029D260BE1D3006B0057 /* ViroKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF5F029C260BE1D3006B0057 /* ViroKit.framework */; };
+		DF5F029E260BE1D3006B0057 /* ViroKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF5F029C260BE1D3006B0057 /* ViroKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -619,13 +618,6 @@
 			remoteGlobalIDString = 2577F299FCB0A19824FE989BE77B8E8F;
 			remoteInfo = "React-jsinspector";
 		};
-		18BD045C245AFBF500895DF6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8BDD9D9E1E09F39B00A42870 /* Pods.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 73F8A95B79671F501F31EA4F1D04AA8B;
-			remoteInfo = "React-RCTActionSheet";
-		};
 		18BD045E245AFBF500895DF6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 8BDD9D9E1E09F39B00A42870 /* Pods.xcodeproj */;
@@ -703,6 +695,13 @@
 			remoteGlobalIDString = 4B33BA0D74E94909898237A117E85E60;
 			remoteInfo = "Pods-ViroReact";
 		};
+		DF1737C125B3B74C00B65592 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8BDD9D9E1E09F39B00A42870 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FE6D792B6328AAF68E46924D7F466631;
+			remoteInfo = "React-Core-AccessibilityResources";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -732,11 +731,9 @@
 				1385B24520CA091C00C3B6CE /* VRTPolyline.h in Copy Headers to ios/dist/include */,
 				1385B24620CA091C00C3B6CE /* VRTPortalScene.h in Copy Headers to ios/dist/include */,
 				1385B24720CA091C00C3B6CE /* VRTPortal.h in Copy Headers to ios/dist/include */,
-				1385B24820CA091C00C3B6CE /* (null) in Copy Headers to ios/dist/include */,
 				1385B24920CA091C00C3B6CE /* VRTPolylineManager.h in Copy Headers to ios/dist/include */,
 				1385B24A20CA091C00C3B6CE /* VRTPortalSceneManager.h in Copy Headers to ios/dist/include */,
 				1385B24B20CA091C00C3B6CE /* VRTPortalManager.h in Copy Headers to ios/dist/include */,
-				1385B24C20CA091C00C3B6CE /* (null) in Copy Headers to ios/dist/include */,
 				1385B24D20CA091C00C3B6CE /* VRTARSceneNavigator.h in Copy Headers to ios/dist/include */,
 				1385B24E20CA091C00C3B6CE /* VRTARAnchorNode.h in Copy Headers to ios/dist/include */,
 				1385B24F20CA091C00C3B6CE /* VRTARPlane.h in Copy Headers to ios/dist/include */,
@@ -955,7 +952,6 @@
 		137E9D7D1F50E8C0008238E5 /* VRTPhotoLibraryAsyncLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VRTPhotoLibraryAsyncLoader.h; path = ViroReact/Utility/VRTPhotoLibraryAsyncLoader.h; sourceTree = "<group>"; };
 		137E9D801F50E8C0008238E5 /* VRTPhotoLibraryAsyncLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VRTPhotoLibraryAsyncLoader.m; path = ViroReact/Utility/VRTPhotoLibraryAsyncLoader.m; sourceTree = "<group>"; };
 		1385B29C20CA091C00C3B6CE /* libViroReact_static_lib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libViroReact_static_lib.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		1385B2A220CA099F00C3B6CE /* ViroKit_static_lib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ViroKit_static_lib.framework; path = dist/ViroRenderer/static_lib/ViroKit_static_lib.framework; sourceTree = "<group>"; };
 		13F6301E2057616000A74EFC /* VRT3DSceneNavigatorModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VRT3DSceneNavigatorModule.h; sourceTree = "<group>"; };
 		13F6302C205761B100A74EFC /* VRT3DSceneNavigatorModule.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = VRT3DSceneNavigatorModule.mm; sourceTree = "<group>"; };
 		13F63031205762AE00A74EFC /* VRT3DSceneNavigatorManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VRT3DSceneNavigatorManager.h; sourceTree = "<group>"; };
@@ -1192,6 +1188,7 @@
 		A5F6D4031E4B179700655F60 /* VRTControllerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VRTControllerManager.h; path = ViroReact/VRTControllerManager.h; sourceTree = "<group>"; };
 		A5F6D4041E4B179700655F60 /* VRTControllerManager.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = VRTControllerManager.mm; path = ViroReact/VRTControllerManager.mm; sourceTree = "<group>"; };
 		B955E98ED74516070EE079F5 /* Pods-ViroReact_release_tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViroReact_release_tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ViroReact_release_tests/Pods-ViroReact_release_tests.release.xcconfig"; sourceTree = "<group>"; };
+		DF5F029C260BE1D3006B0057 /* ViroKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ViroKit.framework; sourceTree = "<group>"; };
 		FDD4EDD8C10B59A4481813F9 /* Pods-ViroReact_static_lib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViroReact_static_lib.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ViroReact_static_lib/Pods-ViroReact_static_lib.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -1209,8 +1206,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1385B2A320CA099F00C3B6CE /* ViroKit_static_lib.framework in Frameworks */,
 				236CE15FB691A995D2DE91A1 /* libPods-ViroReact_static_lib.a in Frameworks */,
+				DF5F029E260BE1D3006B0057 /* ViroKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1218,6 +1215,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF5F029D260BE1D3006B0057 /* ViroKit.framework in Frameworks */,
 				8A2161D02036558500D60008 /* ViroKit.framework in Frameworks */,
 				A25DEF376993A4FF318B6137 /* libPods-ViroReact.a in Frameworks */,
 			);
@@ -1229,9 +1227,9 @@
 		1C367D5FBEE346F359CECCBA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DF5F029C260BE1D3006B0057 /* ViroKit.framework */,
 				8BDD9FF21E53C8AF00A42870 /* libReact.a */,
 				7927738EE26175BE7394889B /* libPods-ViroReact.a */,
-				1385B2A220CA099F00C3B6CE /* ViroKit_static_lib.framework */,
 				1E371BA5881A4F905FA5A241 /* libPods-ViroReact_release_tests.a */,
 				20F958EFD22BC49F2EF3DBAF /* libPods-ViroReact_static_lib.a */,
 			);
@@ -1320,12 +1318,12 @@
 				1385B2B120CA0A5200C3B6CE /* libPods-ViroReact_static_lib.a */,
 				18BD044F245AFBF500895DF6 /* libRCTTypeSafety.a */,
 				18BD0451245AFBF500895DF6 /* libReact-Core.a */,
+				DF1737C225B3B74C00B65592 /* AccessibilityResources.bundle */,
 				18BD0453245AFBF500895DF6 /* libReact-CoreModules.a */,
 				18BD0455245AFBF500895DF6 /* libReact-cxxreact.a */,
 				18BD0457245AFBF500895DF6 /* libReact-jsi.a */,
 				18BD0459245AFBF500895DF6 /* libReact-jsiexecutor.a */,
 				18BD045B245AFBF500895DF6 /* libReact-jsinspector.a */,
-				18BD045D245AFBF500895DF6 /* libReact-RCTActionSheet.a */,
 				18BD045F245AFBF500895DF6 /* libReact-RCTAnimation.a */,
 				18BD0461245AFBF500895DF6 /* libReact-RCTBlob.a */,
 				18BD0463245AFBF500895DF6 /* libReact-RCTImage.a */,
@@ -1808,13 +1806,6 @@
 			remoteRef = 18BD045A245AFBF500895DF6 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		18BD045D245AFBF500895DF6 /* libReact-RCTActionSheet.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = "libReact-RCTActionSheet.a";
-			remoteRef = 18BD045C245AFBF500895DF6 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
 		18BD045F245AFBF500895DF6 /* libReact-RCTAnimation.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -1892,6 +1883,13 @@
 			remoteRef = 8BDD9DA21E09F39B00A42870 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		DF1737C225B3B74C00B65592 /* AccessibilityResources.bundle */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = AccessibilityResources.bundle;
+			remoteRef = DF1737C125B3B74C00B65592 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 /* End PBXReferenceProxy section */
 
 /* Begin PBXShellScriptBuildPhase section */
@@ -1943,7 +1941,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "VIROREACT_DIST_PATH=${SRCROOT}/dist/static_lib\nmkdir -p $VIROREACT_DIST_PATH\nVIRO_DEVICE_LIBRARY=$VIROREACT_DIST_PATH/armv7_arm64\nVIRO_SIMULATOR_LIBRARY=$VIROREACT_DIST_PATH/x86_64\n\n# Copy (and rename) the static library (device or simulator) to dist folder\nif [ ${PLATFORM_NAME} = \"iphonesimulator\" ]; then\nmkdir -p $VIRO_SIMULATOR_LIBRARY\ncp -r $TARGET_BUILD_DIR/libViroReact_static_lib.a $VIRO_SIMULATOR_LIBRARY/libViroReact.a\nelse\nmkdir -p $VIRO_DEVICE_LIBRARY\ncp -r $TARGET_BUILD_DIR/libViroReact_static_lib.a $VIRO_DEVICE_LIBRARY/libViroReact.a\nfi\n\n# Rename libViroReact_static_lib.a to libViroReact.a for lipo to be able to find it later\nmv $VIROREACT_DIST_PATH/libViroReact_static_lib.a $VIROREACT_DIST_PATH/libViroReact.a\n\n# If both the device and simulator frameworks now exist, create the Universal framework\nif [ -f $VIRO_DEVICE_LIBRARY/libViroReact.a ] && [ -f $VIRO_SIMULATOR_LIBRARY/libViroReact.a ]; then\nlipo $VIRO_SIMULATOR_LIBRARY/libViroReact.a $VIRO_DEVICE_LIBRARY/libViroReact.a -create -output $VIROREACT_DIST_PATH/libViroReact.a\nfi\n\n# Copy (and rename) over the podspec\ncp -r $PROJECT_DIR/ViroReact_static_lib.podspec $VIROREACT_DIST_PATH/ViroReact.podspec";
+			shellScript = "VIROREACT_DIST_PATH=${SRCROOT}/dist/static_lib\nmkdir -p $VIROREACT_DIST_PATH\nVIRO_DEVICE_LIBRARY=$VIROREACT_DIST_PATH/armv7_arm64\nVIRO_SIMULATOR_LIBRARY=$VIROREACT_DIST_PATH/x86_64\n\n# Copy (and rename) the static library (device or simulator) to dist folder\nif [ ${PLATFORM_NAME} = \"iphonesimulator\" ]; then\nmkdir -p $VIRO_SIMULATOR_LIBRARY\ncp -r $TARGET_BUILD_DIR/libViroReact_static_lib.a $VIRO_SIMULATOR_LIBRARY/libViroReact.a\nelse\nmkdir -p $VIRO_DEVICE_LIBRARY\ncp -r $TARGET_BUILD_DIR/libViroReact_static_lib.a $VIRO_DEVICE_LIBRARY/libViroReact.a\nfi\n\n# Rename libViroReact_static_lib.a to libViroReact.a for lipo to be able to find it later\nmv $VIROREACT_DIST_PATH/libViroReact_static_lib.a $VIROREACT_DIST_PATH/libViroReact.a\n\n# If both the device and simulator frameworks now exist, create the Universal framework\nif [ -f $VIRO_DEVICE_LIBRARY/libViroReact.a ] && [ -f $VIRO_SIMULATOR_LIBRARY/libViroReact.a ]; then\nlipo $VIRO_SIMULATOR_LIBRARY/libViroReact.a $VIRO_DEVICE_LIBRARY/libViroReact.a -create -output $VIROREACT_DIST_PATH/libViroReact.a\nopen $VIROREACT_DIST_PATH\nfi\n\n# Copy (and rename) over the podspec\ncp -r $PROJECT_DIR/ViroReact_static_lib.podspec $VIROREACT_DIST_PATH/ViroReact.podspec\n";
 		};
 		13A6EC6F20B76B5200873F9B /* Lipo static library */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -1957,7 +1955,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "VIROREACT_DIST_PATH=${SRCROOT}/dist/\nVIRO_DEVICE_LIBRARY=$VIROREACT_DIST_PATH/armv7_arm64\nVIRO_SIMULATOR_LIBRARY=$VIROREACT_DIST_PATH/x86_64\n\n# Copy the static library (device or simulator) to dist folder\nif [ ${PLATFORM_NAME} = \"iphonesimulator\" ]; then\nmkdir -p $VIRO_SIMULATOR_LIBRARY\ncp -r $TARGET_BUILD_DIR/libViroReact.a $VIRO_SIMULATOR_LIBRARY\nelse\nmkdir -p $VIRO_DEVICE_LIBRARY\ncp -r $TARGET_BUILD_DIR/libViroReact.a $VIRO_DEVICE_LIBRARY\nfi\n\n# If both the device and simulator frameworks now exist, create the Universal framework\nif [ -f $VIRO_DEVICE_LIBRARY/libViroReact.a ] && [ -f $VIRO_SIMULATOR_LIBRARY/libViroReact.a ]; then\nlipo $VIRO_SIMULATOR_LIBRARY/libViroReact.a $VIRO_DEVICE_LIBRARY/libViroReact.a -create -output $VIROREACT_DIST_PATH/lib/libViroReact.a\nfi";
+			shellScript = "VIROREACT_DIST_PATH=${SRCROOT}/dist/\nVIRO_DEVICE_LIBRARY=$VIROREACT_DIST_PATH/armv7_arm64\nVIRO_SIMULATOR_LIBRARY=$VIROREACT_DIST_PATH/x86_64\n\n# Copy the static library (device or simulator) to dist folder\nif [ ${PLATFORM_NAME} = \"iphonesimulator\" ]; then\nmkdir -p $VIRO_SIMULATOR_LIBRARY\ncp -r $TARGET_BUILD_DIR/libViroReact.a $VIRO_SIMULATOR_LIBRARY\nelse\nmkdir -p $VIRO_DEVICE_LIBRARY\ncp -r $TARGET_BUILD_DIR/libViroReact.a $VIRO_DEVICE_LIBRARY\nfi\n\n# If both the device and simulator frameworks now exist, create the Universal framework\nif [ -f $VIRO_DEVICE_LIBRARY/libViroReact.a ] && [ -f $VIRO_SIMULATOR_LIBRARY/libViroReact.a ]; then\nlipo $VIRO_SIMULATOR_LIBRARY/libViroReact.a $VIRO_DEVICE_LIBRARY/libViroReact.a -create -output $VIROREACT_DIST_PATH/lib/libViroReact.a\nopen $VIROREACT_DIST_PATH/lib\nfi\n";
 		};
 		1B05FB767790B52B1693D430 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -2384,10 +2382,12 @@
 			baseConfigurationReference = FDD4EDD8C10B59A4481813F9 /* Pods-ViroReact_static_lib.debug.xcconfig */;
 			buildSettings = {
 				ENABLE_BITCODE = NO;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/dist/ViroRenderer",
-					"$(PROJECT_DIR)/dist/ViroRenderer/static_lib",
+					"$(PROJECT_DIR)/ViroKit_static_lib.framework/Headers/**",
+					"$(PROJECT_DIR)/Libraries",
+					"$(PROJECT_DIR)",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(SRCROOT)/../Examples/node_modules/react-native/React/**",
@@ -2407,10 +2407,12 @@
 			baseConfigurationReference = 24F1137CD82BA3E4D836FBA1 /* Pods-ViroReact_static_lib.release.xcconfig */;
 			buildSettings = {
 				ENABLE_BITCODE = NO;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/dist/ViroRenderer",
-					"$(PROJECT_DIR)/dist/ViroRenderer/static_lib",
+					"$(PROJECT_DIR)/ViroKit_static_lib.framework/Headers/**",
+					"$(PROJECT_DIR)/Libraries",
+					"$(PROJECT_DIR)",
 				);
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				HEADER_SEARCH_PATHS = (
@@ -2430,7 +2432,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ARCHS = "${ARCHS_STANDARD_64_BIT}";
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -2476,7 +2478,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ARCHS = "${ARCHS_STANDARD_64_BIT}";
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -2517,9 +2519,12 @@
 			baseConfigurationReference = 26E68AF050CB842CF2264F09 /* Pods-ViroReact.debug.xcconfig */;
 			buildSettings = {
 				ENABLE_BITCODE = NO;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/dist/ViroRenderer",
+					"$(PROJECT_DIR)/Libraries",
+					"$(PROJECT_DIR)",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(SRCROOT)/../Examples/node_modules/react-native/React/**",
@@ -2538,9 +2543,12 @@
 			baseConfigurationReference = 8EB99B003C13099B09EC75DC /* Pods-ViroReact.release.xcconfig */;
 			buildSettings = {
 				ENABLE_BITCODE = NO;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/dist/ViroRenderer",
+					"$(PROJECT_DIR)/Libraries",
+					"$(PROJECT_DIR)",
 				);
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				HEADER_SEARCH_PATHS = (
