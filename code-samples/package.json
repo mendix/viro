@@ -7,7 +7,7 @@
     "test": "jest"
   },
   "dependencies": {
-    "react": "~16.9.0",
+    "react": "~16.14.0",
     "react-native": "~0.61.5",
     "react-viro": "file:../"
   },
