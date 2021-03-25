@@ -37,30 +37,6 @@
 #import "VRTNode.h"
 
 
-@implementation RCTConvert(UIAccessibilityTraits)
-
-RCT_MULTI_ENUM_CONVERTER(UIAccessibilityTraits, (@{
-                                                   @"none": @(UIAccessibilityTraitNone),
-                                                   @"button": @(UIAccessibilityTraitButton),
-                                                   @"link": @(UIAccessibilityTraitLink),
-                                                   @"header": @(UIAccessibilityTraitHeader),
-                                                   @"search": @(UIAccessibilityTraitSearchField),
-                                                   @"image": @(UIAccessibilityTraitImage),
-                                                   @"selected": @(UIAccessibilityTraitSelected),
-                                                   @"plays": @(UIAccessibilityTraitPlaysSound),
-                                                   @"key": @(UIAccessibilityTraitKeyboardKey),
-                                                   @"text": @(UIAccessibilityTraitStaticText),
-                                                   @"summary": @(UIAccessibilityTraitSummaryElement),
-                                                   @"disabled": @(UIAccessibilityTraitNotEnabled),
-                                                   @"frequentUpdates": @(UIAccessibilityTraitUpdatesFrequently),
-                                                   @"startsMedia": @(UIAccessibilityTraitStartsMediaSession),
-                                                   @"adjustable": @(UIAccessibilityTraitAdjustable),
-                                                   @"allowsDirectInteraction": @(UIAccessibilityTraitAllowsDirectInteraction),
-                                                   @"pageTurn": @(UIAccessibilityTraitCausesPageTurn),
-                                                   }), UIAccessibilityTraitNone, unsignedLongLongValue)
-
-@end
-
 @implementation ViroViewManager
 
 
